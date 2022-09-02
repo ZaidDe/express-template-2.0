@@ -23,7 +23,7 @@ app.set('view engine', 'pug');
 morgan.token('date', (req, res) => {
   return format(new Date, 'yyyy-MM-dd HH:mm:ss')
 })
-morgan.format('myformat', '[:date] :method :url :status :res[content-length] - :response-time ms');
+morgan.format('myformat', '[:date] :method :url :status :response-time ms');
 
 //swagger setup
 const specs = swaggerJsdoc(swaggerDoc);
