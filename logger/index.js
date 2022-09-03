@@ -1,7 +1,7 @@
-/*!!NEED TO ADD PRODUCTION LEVEL IF NEEDED!!*/
+/*! !NEED TO ADD PRODUCTION LEVEL IF NEEDED!! */
 
 const buildDevLogger = require('./dev-logger');
-//const buildProdLogger = require('./prod-logger');
+// const buildProdLogger = require('./prod-logger');
 
 // let logger = null;
 // if (process.env.NODE_ENV === 'development') {
@@ -10,5 +10,5 @@ const buildDevLogger = require('./dev-logger');
 //     logger = buildProdLogger();
 // }
 
-let logger = buildDevLogger()
-module.exports = logger
+const logger = buildDevLogger();
+module.exports = logger;
