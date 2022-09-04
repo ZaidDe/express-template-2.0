@@ -34,7 +34,7 @@ app.use(
   .swagger-ui .topbar .download-url-wrapper input[type=text] { border: 2px solid #01b351; border-radius: 4px 0 0 4px; }`,
     customSiteTitle: 'My Documentation',
     explorer: true,
-  })
+  }),
 );
 
 // express middlewares
