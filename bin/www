@@ -1,11 +1,11 @@
-#!/usr/bin/env node
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-use-before-define */
 /**
  * Module dependencies.
  */
 
 const debug = require('debug')('express-template-2.0:server');
-const http = require('http'    );
+const http = require('http');
 const app = require('../app');
 const logger = require('../logger');
 
