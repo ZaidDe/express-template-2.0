@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-use-before-define */
 /**
  * Module dependencies.
